@@ -21,4 +21,15 @@
         - It only compiles the file present in include.
         - If files are present in both include and exclude, files will be compiled include - exclude.
     - files: [] 
-        - It is same as "include", however you can only include files and not the folders. 
+        - It is same as "include", however you can only include files and not the folders.
+    - target: "es5" 
+        - Tell the compiler to compile the code to which Javascript target.
+    - lib: [] 
+        - If lib is commented out, lib assumes all DOM APIs are available, plus all features mentioned in target.
+        - These defaults you need to run the code in the browser.  
+    - sourceMap: "true" 
+        - With sourceMap true, it generate `ts` files under "source" in the browser, which simplifies debugging.
+    - outDir: Tell the typescript compliler where to generate the output files.
+    - rootDir: Tell the compiler where to look for source code.
+    - noEmitOnError: If set to "true", will not generate javascript file containing errors.
+    - noUnusedLocals: If set to "true", it will complain if any unused variable is there.
