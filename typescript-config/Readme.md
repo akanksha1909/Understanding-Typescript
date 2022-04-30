@@ -33,3 +33,7 @@
     - rootDir: Tell the compiler where to look for source code.
     - noEmitOnError: If set to "true", will not generate javascript file containing errors.
     - noUnusedLocals: If set to "true", it will complain if any unused variable is there.
+
+- Next-generation Javascript
+    - const and let are next generation javascript and are scoped to block. 
+    - arrow functions are next generation javascript
