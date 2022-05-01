@@ -37,3 +37,6 @@
 - Next-generation Javascript
     - const and let are next generation javascript and are scoped to block. 
     - arrow functions are next generation javascript
+
+- If any variable/method is declared as private, it can't be changed outside the class, even inside the inherited class.
+- If we want to use the variable inside extended class but not make it available outside the classes, use "protected"
