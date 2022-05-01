@@ -40,3 +40,7 @@
 
 - If any variable/method is declared as private, it can't be changed outside the class, even inside the inherited class.
 - If we want to use the variable inside extended class but not make it available outside the classes, use "protected"
+- "Static" method can be called without initializing the class.
+- You can only access the static variables inside static methods.
+- "Static" properties and methods are detached from instances. You can't access them using "this".
+- "Abstract" method should be just defined in base class and defintion of it should be present in "inherited class"
