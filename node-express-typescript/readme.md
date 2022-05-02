@@ -1,0 +1,1 @@
+- Node is not capable of executing "typescript"
